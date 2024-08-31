@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Counter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<section id="counter-stats" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4 stats text-center">
+                <i class="fas fa-user"></i>
+                <div class="counting" data-count="390">0</div>
+                <h5>Total Clients</h5>
+                <p>We have served numerous clients with our dedicated services.</p>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4 stats text-center">
+                <i class="fas fa-users"></i>
+                <div class="counting" data-count="370">0</div>
+                <h5>Satisfied Clients</h5>
+                <p>Our team of dedicated professionals drives success.</p>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4 stats text-center">
+                <i class="fas fa-project-diagram"></i>
+                <div class="counting" data-count="550">0</div>
+                <h5>Total Projects</h5>
+                <p>Successfully managed a wide range of projects.</p>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4 stats text-center">
+                <i class="fas fa-check"></i>
+                <div class="counting" data-count="35">0</div>
+                <h5>Discount Projects</h5>
+                <p>Achievements reflected in our high completion rate.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--  Count Down -->
+<section id="discount-offer" class="py-5 text-center">
+    <div class="container">
+        <h2>Limited Time Offer!</h2>
+        <p>Get an exclusive discount on our product. Hurry, time is running out!</p>
+        <div id="countdown" class="mt-4">
+            <div class="time-section">
+                <span id="days">00</span>
+                <div>Days</div>
+            </div>
+            <div class="time-section">
+                <span id="hours">00</span>
+                <div>Hours</div>
+            </div>
+            <div class="time-section">
+                <span id="minutes">00</span>
+                <div>Minutes</div>
+            </div>
+            <div class="time-section">
+                <span id="seconds">00</span>
+                <div>Seconds</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
